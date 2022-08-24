@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.wrapper{
+    margin: 0 40px;
+}
+
+.headWrap{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+
+.headerInput{
+    border: none;
+    border-radius: 3px;
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left:30px;
+}
+
+#select{
+    border: none;
+    border-radius: 3px;
+    width: 20%;
+    height: 40px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0 10px;
+}
+
+.cardHolder{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    margin: 0 30px 50px 0;
+    padding: 10px;
+}
+
+.imgHolder{
+    margin-bottom: 15px;
+}
+
+.cardImg{
+    width:150px;
+    height: auto;
+}
+
+.popup{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height:100%;
+    left:0;
+    top: 0;
+    display: none;
+    z-index: 100000;
+}
+
+.popupBody{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupContent{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px rgb(109, 128, 134) solid;
+    position: relative;
+    border-radius: 5px;
+}
+
+.modal{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+}
+
+.imgHolderModal{
+    margin-right: 20px;
+}
